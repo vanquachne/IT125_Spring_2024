@@ -2,11 +2,11 @@
    Star Trek Franchise. The Data should be able to uniquely 
    identify each Language listed\
 */
--- Show Database
+-- show Database
 SHOW databases;
--- Create 1st database
+-- create 1st database
 CREATE DATABASE favoriteSingle;
--- Select the database we want to modify
+-- select the database we want to modify
 USE favoriteSingle;
 -- create structure of the table
 CREATE TABLE single(
@@ -25,12 +25,12 @@ INSERT INTO single VALUE
  (3, "You&Me","JENNIE", "2:59", 2023),
  (4, "She Neva Knows", "JustaTee", "4:00", 2012),
  (5, "Real Love", "JustaTee & Kimmese", "3:00", 2012);
- -- Display all data from single
+ -- display all data from single
 SELECT * FROM single;
 
 -- Create 2nd database
  CREATE DATABASE favoriteArtist;
- -- Select the database we want to modify
+ -- select the database we want to modify
  USE favoriteArtist;
  -- create structure of the table
  CREATE TABLE artist(
@@ -52,9 +52,9 @@ SELECT * FROM single;
  -- display all data
  SELECT * FROM artist;
  
- -- TCreate 3rd database
+ -- create 3rd database
  CREATE DATABASE musicGenresList;
- -- Select the database we want to modify
+ -- select the database we want to modify
  USE musicGenresList;
  -- create structure of the table
  CREATE TABLE genres(
